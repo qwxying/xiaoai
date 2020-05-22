@@ -3,7 +3,7 @@ from time import sleep
 from notify import send_email
 
 # flag = 0
-tasks = ['人工转写-字幕时间戳任务', '人工转写-纯字幕任务', ' ', '人工转写-文稿任务', 'HYZX-快标']  # 已取得作业权限的任务列表
+tasks = ['[群音]-人工转写-字幕时间戳任务', '[群音]-人工转写-纯字幕任务', ' ', '[群音]-人工转写-文稿任务', '[群音]-HYZX-快标']  # 已取得作业权限的任务列表
 path = r'chromedriver.exe'
 options = webdriver.ChromeOptions()
 options.add_argument('headless')  # 设置option
